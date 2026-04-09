@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="google-site-verification" content="hGcrYM0LCmZUKsKkkAwYXZYmyduzeg4WIvWXURZH8VA" />
+
+<meta name="description" content="Sharda Sound Service provides DJ sound system, lighting setup, wedding stage decoration and event sound services across Narmadapuram, Itarsi and Madhya Pradesh.">
+
+<meta name="keywords" content="Sound service Narmadapuram, DJ setup Itarsi, wedding sound Madhya Pradesh, stage lighting Narmadapuram, event sound service MP">
+
+<title>Sharda Sound & Event Setup Service</title>
+
+<style>
+html {
+scroll-behaviour: smooth;
+}
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #0f172a;
+color: white;
+}
+
+.map-section {
+background: #020617;
+text-align: center;
+padding: 50px 20px;
+}
+
+.map-section h2 {
+color: white;
+margin-bottom: 20px;
+}
+
+.map-btn {
+display: inline-block;
+margin-top: 20px;
+background: #22c55e;
+color: white;
+padding: 12px 26px;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.map-btn:hover {
+background: #16a34a;
+transform: scale(1.05);
+}
+
+header {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+text-align: center;
+padding: 20px 10px;
+z-index: 1000;
+}
+
+nav {
+background: transparent;
+padding: 18px;
+text-align: center;
+
+position: absolute;
+top: 120px;
+width: 100%;
+
+z-index: 1000;
+}
+
+nav a {
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+transition: 0.3s;
+
+text-shadow:0px 2px 6px rgba(0,0,0,.7);
+}
+
+nav a:hover {
+color: #22c55e;
+}
+
+
+.hero {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("images/hero.jpeg");
+background-size: cover;
+background-position: center;
+color: white;
+text-align: center;
+padding: 260px 20px 160px;
+}
+
+.hero h1 {
+font-size: 48px;
+margin-bottom: 15px;
+}
+
+.hero p {
+font-size: 22px;
+margin-bottom: 25px;
+}
+
+.hero a {
+display: inline-block;
+}
+
+button {
+background: #22c55e;
+border: none;
+padding: 15px 28px;
+font-size: 18px;
+border-radius: 8px;
+cursor: pointer;
+margin: 8px;
+}
+
+button:hover {
+background: #16a34a;
+}
+
+section {
+padding: 60px 20px;
+text-align: center;
+}
+
+.services {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.service-box {
+background: #1e293b;
+padding: 20px;
+margin: 12px;
+border-radius: 12px;
+width: 250px;
+}
+
+.gallery div {
+overflow: hidden;
+broder-radius: 12px;
+}
+
+.gallery img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 10px;
+
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery img:hover {
+transform: scale(1.08);
+box-shadow: 0px 8px 25px rgba(0,0,0,0.5);
+}
+
+footer {
+background: #020617;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:28px;
+}
+.services{
+flex-direction:column;
+align-items:center;
+}
+}
+
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 15px;
+padding: 20px;
+}
+
+.gallery img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 10px;
+}
+ 
+.logo {
+height: 140px;
+max-width: 90%;
+}
+
+.gallery div {
+text-align: center;
+}
+
+.gallery p {
+margin-top: 8px;
+font-size: 15px;
+color: #ddd;
+
+transition: color 0.3s ease;
+}
+
+.gallery div:hover p {
+color: #22c55e;
+}
+
+.whatsapp-float {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #25D366;
+color: white;
+padding: 14px 18px;
+border-radius: 30px;
+font-size: 16px;
+text-decoration: none;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.service-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.service-card {
+background: #1e293b;
+padding: 25px;
+border-radius: 12px;
+width: 260px;
+text-align: center;
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-6px);
+background: #334155;
+}
+
+.insta-btn {
+display: inline-block;
+background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+color: white;
+padding: 14px 22px;
+border-radius: 30px;
+font-size: 18px;
+text-decoration: none;
+font-weight: bold;
+margin-top: 15px;
+transition: 0.3s ease;
+}
+
+.insta-btn:hover {
+transform: scale(1.08);
+box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+}
+
+.insta-btn {
+display: block;
+width: fit-content;
+margin: 20px auto;
+}
+
+.call-btn {
+display: inline-block;
+background: linear-gradient(45deg, #2563eb, #1d4ed8);
+color: white;
+padding: 14px 28px;
+border-radius: 30px;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+margin: 10px;
+transition: 0.3s ease;
+}
+
+.call-btn:hover {
+transform: scale(1.08);
+box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+}
+
+.wa-btn {
+display: inline-block;
+background: linear-gradient(45deg, #25D366, #128C7E);
+color: white;
+padding: 14px 28px;
+border-radius: 30px;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+margin: 10px;
+transition: 0.3s ease;
+}
+
+.wa-btn:hover {
+transform: scale(1.08);
+box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+}
+
+.testimonial-section {
+background: #020617;
+padding: 50px 20px;
+text-align: center;
+}
+
+.testimonial-section h2 {
+color: white;
+margin-bottom: 25px;
+}
+
+.testimonial-box {
+background: #1e293b;
+color: white;
+padding: 18px 25px;
+margin: 12px auto;
+max-width: 700px;
+border-radius: 10px;
+font-style: italic;
+
+transition: 0.3s ease;
+}
+
+.testimonial-box:hover {
+background: #334155;
+transform: translateY(-5px);
+}
+
+.call-float {
+position: fixed;
+bottom: 80px;
+right: 20px;
+
+background: #2563eb;
+color: white;
+
+padding: 14px 18px;
+border-radius: 30px;
+
+font-size: 16px;
+font-weight: bold;
+text-decoration: none;
+
+box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+
+display: none;
+
+z-index: 1000;
+}
+
+.call-float {
+dispaly: none;
+}
+
+@media (max-width: 768px) {
+
+.call-float {
+display: block;
+}
+
+}
+
+
+</style>
+</head>
+
+<body>
+<header style="text-align:center; padding:20px;">
+<img src="images/logo.jpeg" class="logo">
+<h1>Sharda Sound & Events</h1>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+
+<h1>Professional Sound, Lighting & Event Setup Services</h1>
+
+<p>Serving Narmadapuram | Itarsi | Pipariya | Babai | Across Madhya Pradesh</p>
+
+
+
+<a href="https://instagram.com/sharda_sound_studio_10" class="insta-btn" target="_blank">
+📸 View Our Event Gallery on Instagram
+</a>
+
+<a href="tel:+919109383070" class="call-btn">
+📞 Call Now
+</a>
+
+<a href="https://wa.me/919109383070" class="wa-btn">
+💬 WhatsApp Booking
+</a>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="service-container">
+
+<div class="service-card">
+<h3>Wedding Setup</h3>
+<p>Complete sound & lighting arrangements for weddings.</p>
+</div>
+
+<div class="service-card">
+<h3>DJ Sound Setup</h3>
+<p>High-power DJ sound system with lighting effects.</p>
+</div>
+
+<div class="service-card">
+<h3>Stage Lighting</h3>
+<p>Professional lighting setup for stage events.</p>
+</div>
+
+<div class="service-card">
+<h3>Birthday Events</h3>
+<p>Sound and decoration support for birthday parties.</p>
+</div>
+
+<div class="service-card">
+<h3>Outdoor Events</h3>
+<p>Reliable outdoor sound coverage for large gatherings.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery" class="gallery">
+<h2>Event Gallery</h2>
+
+<div>
+<img src="images/entrance.jpg.jpeg" alt="Wedding entrance decoration">
+<p>Wedding Entrance Decoration</p>
+</div>
+
+<div>
+<img src="images/stage-decoration.jpg.jpeg"  alt="Wedding stage decoration with lighting">
+<p>Wedding Stage Decoration With Lighting</p>
+</div>
+
+<div>
+<img src="images/theme-decoration.jpg.jpeg"  alt="Wedding theme decoration">
+<p>Wedding Theme Decoration</p>
+</div>
+
+<div>
+<img src="images/wedding-stage.jpg.png"  alt="Wedding stage decoration with lighting">
+<p>Wedding Stage Decoration With Lighting</p>
+</div>
+
+<div>
+<img src="images/decoration.jpg.png"  alt="Wedding hall decoration in Daytime">
+<p>Wedding Hall Decoration In Daytime</p>
+</div>
+
+<div>
+<img src="images/birthday-decoration.jpeg"  alt="Birthday Decoration">
+<p>Birthday Decoration</p>
+</div>
+
+<div>
+<img src="images/Asthetic-setup.jpeg"  alt="Asthetic Setups">
+<p>Asthetic Setups</p>
+</div>
+
+
+</section>
+
+
+<section id="contact">
+<h2>Contact Us</h2>
+
+<p>Phone: +91 9109383070</p>
+<p>Service Area: Narmadapuram | Itarsi | Pipariya | Babai</p>
+
+
+</section>
+
+<footer>
+© 2026 Sharda Sound & Events.
+</footer>
+
+<section class="testimonial-section">
+
+<h2>What Our Clients Say</h2>
+
+<div class="testimonial-box">
+"Excellent sound quality and lighting setup. Very professional service!"
+</div>
+
+<div class="testimonial-box">
+"Perfect arrangement for our wedding function. Highly recommended."
+</div>
+
+<div class="testimonial-box">
+"Reliable team and on-time setup for our event."
+</div>
+
+</section>
+
+<section class="map-section">
+
+<h2>Service Location</h2>
+
+<p>
+📍 Based in Narmadapuram <br>
+Providing Sound & Event Setup Services Across Madhya Pradesh
+</p>
+
+<a href="https://maps.google.com/?q=Narmadapuram+Madhya+Pradesh"
+target="_blank"
+class="map-btn">
+
+📍 Open Service Area in Google Maps
+
+</a>
+
+</section>
+
+<a href="https://wa.me/919109383070" class="whatsapp-float">
+Chat on WhatsApp
+</a>
+
+<script>
+
+window.addEventListener("scroll", function() {
+
+let header = document.querySelector("header");
+
+if (window.scrollY > 80) {
+
+header.style.background = "#020617";
+header.style.boxShadow = "0px 4px 12px rgba(0,0,0,0.5)";
+
+} else {
+
+header.style.background = "transparent";
+header.style.boxshadow = "none";
+
+}
+
+});
+
+</script>
+
+<a href="tel:+919109383070" class="call-float">
+📞 Call Now
+</a>
+
+</body>
+</html>
